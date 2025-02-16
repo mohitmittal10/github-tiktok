@@ -548,3 +548,17 @@ span.date {
   font-size: 0.8rem;
   right: 10px;
 }
+
+@media (max-width: 450px) {
+  /* Your styles for small screens here */
+  .repo-card{
+    padding: 35px;
+    padding-bottom: 10px;
+  }
+  .repo-stats{
+    margin: 12px 0px;
+  }
+  .repo-bottom{
+    margin: 12px 0px;
+  }
+}
