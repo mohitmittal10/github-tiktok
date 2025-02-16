@@ -553,7 +553,7 @@ span.date {
 @media (max-width: 450px) {
   /* Your styles for small screens here */
   .repo-card{
-    padding: 35px;
+    /* padding: 35px; */
     height: 80vh;
   }
   .repo-stats{
