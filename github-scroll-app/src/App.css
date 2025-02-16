@@ -566,10 +566,5 @@ span.date {
   .auth-button {
     height: fit-content;
 }
-p.desc{
-  overflow-y: auto;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    height: 13vh;
-}
+
 }
