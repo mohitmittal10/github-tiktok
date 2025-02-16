@@ -579,3 +579,23 @@ span.date {
   font-size: 10px;
 }
 }
+
+
+.repo-card-container {
+  height: -webkit-fill-available;
+}
+
+.readme-content {
+  width: -webkit-fill-available;
+  height: auto;
+  overflow-y: scroll;
+}
+
+
+button.info-button {
+  width: fit-content;
+  padding: 0;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
