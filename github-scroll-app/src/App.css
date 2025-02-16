@@ -554,7 +554,7 @@ span.date {
   /* Your styles for small screens here */
   .repo-card{
     padding: 35px;
-    padding-bottom: 10px;
+    height: 80vh;
   }
   .repo-stats{
     margin: 12px 0px;
