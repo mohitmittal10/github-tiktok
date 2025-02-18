@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { auth, googleProvider, signInWithPopup, signInWithEmailAndPassword, createUserWithEmailAndPassword } from '../firebase';
 import { FaGoogle, FaEnvelope } from 'react-icons/fa';
 
+
 const AuthModal = ({ onClose }) => {
   const [isLogin, setIsLogin] = useState(true); // Toggle between login and signup
   const [email, setEmail] = useState('');

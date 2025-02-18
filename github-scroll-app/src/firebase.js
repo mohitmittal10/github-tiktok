@@ -8,6 +8,7 @@ import {
   createUserWithEmailAndPassword,
   signOut,
 } from "firebase/auth";
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
   apiKey: "AIzaSyDNG5tH4H5k3laWfazCRSzdUZJ745Sk9gU",
@@ -31,3 +32,5 @@ export {
   createUserWithEmailAndPassword,
   signOut,
 };
+export const db = getFirestore(app);
+
